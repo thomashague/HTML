@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Thomas' HTML Demo</title>
+
+        <!-- Allow for adjustable diplay size depending on user device -->
+        <meta name="view" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Ensure that users on Internet Explorer (grandparents) can view website -->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- link to the bootstrap and custom css style sheets -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="thomasCSSdemo.css">
+    </head>
+
+    <body>
+        <!-- create the Navbar (from Bootstrap) -->
+        <nav class="navbar navbar-default"> 
+            <div class="container-fluid navbar-custom">
+                    
+                <!-- Brand and toggle get grouped for better mobile display??????? -->
+                <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <!-- Why three???-->
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        <!-- The latitude button in left side of nav bar-->
+                        <div class="col-xs-9 phone-nav">
+                            <a class="navbar-brand" href="#" id="logo">Latitude</a>
+                        </div>
+                    </div><!-- /.navbar-header-->
+                
+                <!-- Create the right portion of Navbar with dropdown WHY ISNT IT DROPPING???? -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right navbar-right-custom">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="temp.html">Max Temperature</a></li>
+                            <li><a href="humidity.html">Humidity</a></li>
+                            <li><a href="cloudiness.html">Cloudiness</a></li>
+                            <li><a href="wind.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="comparison.html">Comparison</a></li>
+                    <li><a href="data.html">Data</a></li>
+                    </ul>
+                </div><!-- /.collapse navbar-collapse -->
+            </div><!-- /.row-->
+            </div><!-- /.container-fluid navbar-custom -->
+        </nav><!-- /.navbar navbar-default-->
+        
+        <!-- end of navbar -->
+
+
+
+
+
+
+
+
+
+        
+   <!-- Start of footer -->
+   <footer class="footer navbar-fixed-bottom">
+        <div class="two-toned-footer-color"></div>
+        <p class="text-muted text-muted-footer text-center">
+            &copy; Thomas Hague 2018
+        </p>
+        </footer>
+        <!-- End of footer -->
+    
+        <!-- jQuery CDN -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    
+        <!-- Bootstrap CDN -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+      
+</html>
